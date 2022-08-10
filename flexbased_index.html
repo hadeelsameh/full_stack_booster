@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Elegant Cafe</title>
+    <!-- <link href="assets/css/style.css" rel="stylesheet" type="text/css"> -->
+
+    <style>
+
+
+
+        body{
+            
+            height: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            
+        }
+
+        .parent{
+            display: flex;
+            
+            height: 100%;
+            flex-direction: column;
+
+
+        }
+
+        header{
+            height: 2%;
+            background: burlywood;
+            padding: 1%;
+        }
+
+        .logo {
+            border-radius: 20% ;
+            width: 80px;
+            margin-left: 0px;
+            
+        }
+
+        .avatar {
+            border-radius: 50%;
+            width: 80px;
+            vertical-align: middle;
+            
+        }
+
+
+        header > * {
+            display: inline-block;
+            
+        }
+
+        .leftdiv {
+            display: inline-block;
+            float: right;
+            
+        }
+
+        .leftdiv ul {
+            display: inline-block;
+        }
+
+        .leftdiv ul li {
+            
+            list-style: none;
+            display: inline-block;
+
+        }
+
+        .leftdiv ul li a {
+            display: inline-block;
+            padding: 10px 15px;
+            color: rgb(77, 22, 22);
+            text-decoration: none;
+            transition: cubic-bezier(0.645, 0.045, 0.355, 1) .5s;
+            
+        }
+
+        .leftdiv ul li a:hover{
+            background: wheat;
+            border-radius: 30px;
+            color: brown;
+            font-size: x-large;
+        }
+
+        .banner{
+            
+            overflow: hidden;
+            height: 10%;
+        }
+
+        .banner img {
+            height: 100%;
+            width: 100%;
+        }
+
+        main{
+            height: 70%;
+            background: wheat;
+        }
+
+        footer{
+            height:10%;
+            background: rgb(131, 66, 20);
+            display: flex;
+            flex-direction: row;
+            justify-content: center ;
+            align-items: center;
+        
+        }
+
+
+        .footer > * {
+            /* display: inline-block; */
+            vertical-align: middle;
+            
+        }
+
+        .footer div p {
+            margin-left: 10%;
+            color: rgb(77, 22, 22);
+        }
+        .bmenu ul li {
+            list-style: none;
+        }
+
+        .bmenu ul li a{
+            padding-top: 10%;
+            padding-bottom: 10%;
+            color: rgb(77, 22, 22);
+            text-decoration: none;
+            font-size: x-large;
+            transition: cubic-bezier(0.645, 0.045, 0.355, 1) .15s;
+
+        }
+
+        .bmenu ul li a:hover{
+
+            color: wheat;    
+        }
+
+        
+        .map {
+            
+            margin-left: 32%;
+            overflow: hidden;
+            
+        } 
+        
+       
+
+        .topdiv{
+
+            color: rgb(77, 22, 22);
+            font-style: italic;
+            text-transform: capitalize;
+            border-bottom: burlywood 2px solid;
+            border-bottom-width: medium;
+            }
+
+        .bottomdiv{
+
+            color: rgb(77, 22, 22);
+            text-transform: capitalize;
+            font-style: italic;
+            /*border-bottom: burlywood 2px solid;*/
+
+        }
+
+        .minor > * {
+
+            display: inline-block;
+            width: 25%;
+            margin-left: 6%;
+            border:  burlywood 2px solid;
+            border-radius: 10%;
+            color: rgb(77, 22, 22);
+            margin-bottom: 5%;
+
+            }
+
+        .minor h2,h4{
+            padding: 3%;
+            }
+
+        .minor img {
+            margin-top: 3%;
+            margin-left: 15%; 
+            width: 70%;
+            height: 90%;  
+            }
+
+        .minor a {
+
+            text-decoration: none;
+            color: rgb(77, 22, 22);
+            background: burlywood;
+            float: right;
+            padding: 2%;
+            margin-right: 10%;
+            margin-bottom: 5%;
+
+            }
+
+        .topdiv div h1 {
+
+            margin-left: 10%;
+            font-size: xx-large;
+        }
+
+        .bottomdiv div h1 {
+            margin-left: 10%;
+            font-size: xx-large;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <section class="parent">
+
+        <header>
+
+            <div>
+
+                <a href="index.html" >
+                    <img class="logo" src="assets/images/logo.jfif">
+                </a>
+                
+            </div>
+    
+            <div class="leftdiv">
+    
+                <ul> 
+                    <li>  <a href="index.html"> Home </a>  </li>
+                    <li>  <a href="Products.html"> Products </a>  </li>
+                    <li>  <a href="Categories.html"> Categories </a>  </li>
+                    <li>  <a href="About_us.html"> About us </a>  </li>
+                    <li>  <a href="Contact_us.html"> Contact us </a> </li>
+                    <li>  <a href="my_cart.html">My Cart</a> </li>
+                </ul>
+                <a href="profile.html">
+                    <img class="avatar" src="assets/images/user.png">
+                </a>
+    
+            </div>
+    
+
+        </header>
+
+
+        <section class="banner">
+
+            <img src="assets/images/background.png">
+
+
+        </section>
+
+
+
+        <main>
+
+            <div class="topdiv">
+                <div>
+                    <h1>     Top Selling </h1>
+                </div>
+    
+                <div class="minor">
+                        <div>
+            
+                            <img src="assets/images/image1.png">
+                            <h2>Black coffee</h2>
+                            <h4>5$</h4>
+                            <a href="info.html">See more</a>
+            
+                        </div>
+            
+                        <div>
+            
+                            <img src="assets/images/image1.png">
+                            <h2>cramel maciato</h2>
+                            <h4>5$</h4>
+                            <a href="info.html">See more</a>
+            
+                        </div>
+            
+                        
+                        <div>
+            
+                            <img src="assets/images/image1.png">
+                            <h2>Espresso</h2>
+                            <h4>5$</h4>
+                            <a href="info.html">See more</a>
+            
+                        </div>
+                        
+                        <div>
+            
+                            <img src="assets/images/image3.png">
+                            <h2>Nescafe</h2>
+                            <h4>5$</h4>
+                            <a href="info.html">See more</a>
+            
+                        </div>
+    
+                        <div>
+    
+                            <img src="assets/images/image3.png">
+                            <h2>Tuskish coffee</h2>
+                            <h4>5$</h4>
+                            <a href="info.html">See more</a>
+        
+                        </div>
+    
+                        <div>
+    
+                            <img src="assets/images/image3.png">
+                            <h2>French coffee</h2>
+                            <h4>5$</h4>
+                            <a href="info.html">See more</a>
+        
+                        </div>
+        
+    
+    
+            
+                </div>
+                
+                
+            </div>
+    
+            <div class="bottomdiv">
+                <div>
+                    <h1>On Sale</h1>
+                </div>
+    
+                <div class="minor">
+                    <div>
+    
+                        <img src="assets/images/image1.png">
+                        <h2>black forest cake</h2>
+                        <h4>5$</h4>
+                        <a href="info.html">See more</a>
+    
+                    </div>
+    
+                    <div>
+    
+                        <img src="assets/images/image1.png">
+                        <h2>strawbwrry frapitshino</h2>
+                        <h4>5$</h4>
+                        <a href="info.html">See more</a>
+    
+                    </div>
+    
+                    
+                    <div>
+    
+                        <img src="assets/images/image1.png">
+                        <h2>carrot cake</h2>
+                        <h4>5$</h4>
+                        <a href="info.html">See more</a>
+    
+                    </div>
+                    
+                    <div>
+    
+                        <img src="assets/images/image3.png">
+                        <h2>black berry mix</h2>
+                        <h4>5$</h4>
+                        <a href="info.html">See more</a>
+    
+                    </div>
+    
+                    <div>
+    
+                        <img src="assets/images/image3.png">
+                        <h2>Matcha</h2>
+                        <h4>5$</h4>
+                        <a href="info.html">See more</a>
+    
+                    </div>
+    
+                    <div>
+    
+                        <img src="assets/images/image3.png">
+                        <h2>double shot Espresso</h2>
+                        <h4>5$</h4>
+                        <a href="info.html">See more</a>
+    
+                    </div>
+    
+    
+                </div>
+    
+               
+    
+            </div>
+    
+    
+
+        </main>
+
+
+        <footer>
+
+            <div>
+             
+                <p>description :
+                    this website is for e-commerce caffe kkkkkk
+                </p>
+                <p>copyrights reserved at cairo,egypt</p>
+                
+            </div>
+    
+            
+            <div class="bmenu">
+    
+                <ul> 
+                    <li>  <a href="index.html"> Home </a>  </li>
+                    <li>  <a href="Products.html"> Products </a>  </li>
+                    <li>  <a href="Categories.html"> Categories </a>  </li>
+                    <li>  <a href="About_us.html"> About us </a>  </li>
+                    <li>  <a href="Contact_us.html"> Contact us </a> </li>
+                    <li>  <a href="my_cart.html">My Cart</a> </li>
+                </ul>
+    
+            </div> 
+            
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79235.3950263695!2d31.172334718986676!3d30.012086939441197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840eb2c0e580f%3A0x1761e0e461027d11!2sKhan%20el-Khalili!5e0!3m2!1sen!2seg!4v1659484963267!5m2!1sen!2seg" width="70%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+
+        </footer>
+    
+
+    </section>
+    
+    
+</body>
+
+
+</html>

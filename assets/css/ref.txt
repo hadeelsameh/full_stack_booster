@@ -1,0 +1,36 @@
+/* img , h2{
+    width: 150px; 
+    background-color: aqua; 
+    padding: 50px 25px  5px 10px;  
+    border: #745838 2px solid;
+    display: inline; #block make images malzo2een el3aks ismo inline 
+    margin: 20px;
+} */
+
+/*univeral selector*/
+
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+/* text specified */
+
+
+/*h1 ,p ,h2 {
+    color: rgb(95, 12, 12);
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+    direction: ltr; #text from left to right 
+
+    font-family: Mouse Memoirs;
+    font-size: x-large;
+    font-weight: lighter;
+    font-style: italic;
+}*/
+
+
+
+
